@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_detail_tv"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_layout_list_item_info_height"
+        android:layout_marginLeft="@dimen/space_size_16"
+        android:text="@string/play_shuffle"
+        android:textColor="@color/lightWhite"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/text_size_sdv" />
+
+    <include layout="@layout/fragment_recyclerview"/>
+</LinearLayout>

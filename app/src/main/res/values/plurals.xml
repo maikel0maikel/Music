@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nalbums">
+        <item quantity="one">@string/count_album</item>
+        <item quantity="other">@string/count_albums</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="zero">@string/count_songs</item>
+        <item quantity="one">@string/count_song</item>
+        <item quantity="other">@string/count_songs</item>
+    </plurals>
+
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="one">@string/number_song_add_queue</item>
+        <item quantity="other">@string/number_songs_add_queue</item>
+    </plurals>
+    <plurals name="NNNtracksaddedtoqueue">
+        <item quantity="one">@string/song_hasadded_queue</item>
+        <item quantity="other">@string/songs_havaadded_queue</item>
+    </plurals>
+
+    <plurals name="NNNdeletefolder">
+        <item quantity="one">@string/delete_folder_song</item>
+        <item quantity="other">@string/delete_folder_songs</item>
+    </plurals>
+</resources>

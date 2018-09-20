@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/linear_layout_list_item_height"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/layout_equalzer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_list_item_height"
+        android:paddingBottom="@dimen/space_size_5"
+        android:paddingLeft="@dimen/space_size_35"
+        android:paddingTop="@dimen/standard_margin">
+
+        <TextView
+            android:id="@+id/setting_equalizer_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/sound_adjustment_str"
+            android:textColor="@color/lightWhite"
+            android:textSize="@dimen/setting_text_size" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/space_size_20"
+            android:src="@drawable/ic_arrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/dull_grey" />
+    </FrameLayout>
+
+</LinearLayout>

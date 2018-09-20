@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="fastScrollThumbColor" format="reference|color" />
+        <attr name="fastScrollTrackColor" format="reference|color" />
+        <attr name="fastScrollPopupBgColor" format="reference|color" />
+        <attr name="fastScrollPopupTextColor" format="reference|color" />
+        <attr name="fastScrollPopupTextSize" format="reference|dimension" />
+        <attr name="fastScrollPopupBackgroundSize" format="reference|dimension" />
+        <attr name="fastScrollAutoHide" format="reference|boolean" />
+        <attr name="fastScrollAutoHideDelay" format="reference|integer" />
+    </declare-styleable>
+    <attr name="selectableItemBackgroundBorderless1" format="reference" />
+
+
+    <declare-styleable name="ForegroundImageView">
+        <attr name="android:foreground" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested" />
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleBackground" format="color" localization="suggested" />
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+    </declare-styleable>
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="primaryColorDark" format="color" />
+        <attr name="isOpened" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" format="dimension" />
+        <attr name="type" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="UpdateAppNumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="ttPopupMenuStyle" format="reference" />
+    <attr name="default_record_album" format="reference" />
+    <attr name="default_album_drawable" format="reference" />
+    <attr name="album_default_palette_color" format="reference" />
+</resources>

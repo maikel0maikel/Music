@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popupwindow_content_width"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/add_song_tv"
+        style="@style/menu_item_text_style"
+        android:background="@drawable/bg_solid_selector_up"
+        android:drawableLeft="@drawable/ic_popup_btn_add_selector"
+        android:text="@string/add_to_queue" />
+
+
+    <TextView
+        android:id="@+id/delete_song_tv"
+        style="@style/menu_item_text_style"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/bg_solid_selector_down"
+        android:drawableLeft="@drawable/ic_popup_btn_delete_selector"
+        android:text="@string/delete_from_device" />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

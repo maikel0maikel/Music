@@ -1,0 +1,79 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">音乐</string>
+    <string name="content_empty_default">没有音乐文件</string>
+    <string name="favorite_empty_default">没有收藏音乐</string>
+    <string name="count_songs"><xliff:g id="count">%d</xliff:g> 首歌</string>
+    <string name="count_song"><xliff:g id="count">%d</xliff:g> 首歌</string>
+    <string name="count_album"><xliff:g id="count">%d</xliff:g> 张专辑</string>
+    <string name="count_albums"><xliff:g id="count">%d</xliff:g> 张专辑</string>
+    <string name="delete_from_device">从设备中删除</string>
+    <string name="mode_loop_single">单曲循环</string>
+    <string name="mode_loop_list">循环播放</string>
+    <string name="mode_random">随机播放</string>
+    <string name="mode_browse">浏览播放</string>
+
+
+    <string name="music">音乐</string>
+    <string name="songs">歌曲</string>
+    <string name="albums">专辑</string>
+    <string name="artists">艺术家</string>
+    <string name="folders">文件夹</string>
+    <string name="favorite">收藏</string>
+    <string name="settings">设置</string>
+    <string name="play_shuffle">随机播放全部</string>
+    <string name="delete">删除</string>
+    <string name="delete_song_content">删除 %1$s ?</string>
+    <string name="delete_songs_content">删除 %1$s %2$d 首歌 ?</string>
+    <string name="add_to_queue">添加到播放列表</string>
+    <string name="number_song_add_queue">已成功添加到播放列表</string>
+    <string name="number_songs_add_queue">添加 <xliff:g example="1" id="number">%d</xliff:g> 首歌到播放列表</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="delete_song">删除音乐</string>
+    <string name="clear_song_queue">确认清空播放列表吗?</string>
+    <string name="add_favorite_success">收藏歌曲成功</string>
+    <string name="add_favorite_fail">收藏歌曲失败</string>
+    <string name="remove_favorite_success">删除我收藏的歌曲成功</string>
+    <string name="remove_favorite_fail">删除我收藏的歌曲失败</string>
+    <!---->
+    <string name="usb_insert_play">USB插入播放</string>
+    <string name="sound_adjustment_str">均衡器</string>
+    <string name="delete_folder">删除文件夹</string>
+    <string name="delete_folder_song">删除文件夹下 <xliff:g example="1" id="number">%d</xliff:g>首歌曲?</string>
+    <string name="delete_folder_songs">删除文件夹下 <xliff:g example="1" id="number">%d</xliff:g>首歌曲?</string>
+    <string name="classical">古典</string>
+    <string name="song_hasadded_queue">该歌曲已添加到播放列表</string>
+    <string name="songs_havaadded_queue">这些歌曲已添加到播放列表</string>
+    <string name="failed_to_play_file">对不起，播放文件失败</string>
+
+    <string name="firstsong">播放历史第一首</string>
+
+    <string name="ignore_this_version">忽略此版本</string>
+    <string name="upgrade">升级</string>
+    <string name="check_upgrade">是否升级到%s版本？</string>
+    <string name="new_version_size">新版本大小：</string>
+    <string name="update_ignored">该版本已经忽略</string>
+    <string name="update_no_newer">已经是最新版了</string>
+    <string name="check_unknown">查询更新失败：未知错误</string>
+    <string name="check_no_wifi">查询更新失败：没有 WLAN</string>
+    <string name="check_no_network">查询更新失败：没有网络</string>
+    <string name="check_network_io">查询更新失败：网络异常</string>
+    <string name="check_http_status">查询更新失败：错误的HTTP状态</string>
+
+    <string name="check_parse">查询更新失败：解析错误</string>
+    <string name="download_unknown">下载失败：未知错误</string>
+    <string name="download_cancelled">下载失败：下载被取消</string>
+    <string name="download_disk_no_space">下载失败：磁盘空间不足</string>
+    <string name="download_disk_io">下载失败：磁盘读写错误</string>
+    <string name="download_network_io">下载失败：网络异常</string>
+    <string name="download_network_blocked">下载失败：网络中断</string>
+
+    <string name="download_network_timeout">下载失败：网络超时</string>
+    <string name="download_http_status">下载失败：错误的HTTP状态</string>
+    <string name="download_incomplete">下载失败：下载不完整</string>
+    <string name="download_verify">下载失败：校验错误</string>
+
+    <string name="local_music">本地音乐</string>
+    <string name="playing">正在播放</string>
+    <string name="myself">我的</string>
+</resources>

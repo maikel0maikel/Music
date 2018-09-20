@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65px"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_title_bar_bg" />
+
+
+    <com.sinohb.base.widget.MaterialRippleLayout
+        android:id="@+id/layout_back"
+        android:layout_width="133px"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleBackground="#00FFFFFF"
+        app:mrl_rippleColor="#00000000"
+        app:mrl_rippleDuration="10"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleRoundedCorners="50px">
+
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_back_btn_selector" />
+
+    </com.sinohb.base.widget.MaterialRippleLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="25px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextClock
+        android:id="@+id/tv_time"
+        android:layout_width="133px"
+        android:layout_height="65px"
+        android:layout_centerVertical="true"
+        android:format24Hour="HH:mm"
+        android:gravity="center"
+        android:text="23:50"
+        android:textColor="@android:color/white"
+        android:textSize="24px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

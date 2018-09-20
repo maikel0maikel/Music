@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="110px"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_left_nav_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/folder_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:maxHeight="110px"
+            android:maxWidth="110px"
+            android:src="@drawable/ic_nav_folder_selector"/>
+
+        <ImageView
+            android:id="@+id/playing_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:maxHeight="110px"
+            android:maxWidth="110px"
+            android:src="@drawable/ic_nav_player_selector"/>
+
+        <ImageView
+            android:id="@+id/collect_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:maxHeight="110px"
+            android:maxWidth="110px"
+            android:src="@drawable/ic_nav_collect_selector"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

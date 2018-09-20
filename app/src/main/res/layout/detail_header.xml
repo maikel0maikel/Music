@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/grid_layout_list_item_info_height"
+    android:gravity="center_vertical"
+    android:background="#0A0A0A">
+
+    <TextView
+        android:id="@+id/title_textView"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_16"
+        android:text="@string/play_shuffle"
+        android:textColor="@color/lightWhite"
+        android:textSize="@dimen/title_text_size" />
+
+
+</LinearLayout>

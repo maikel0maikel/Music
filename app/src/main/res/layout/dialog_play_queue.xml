@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_shape_corner_dialog_normal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sliding_up_header">
+
+        <ImageView
+            android:id="@+id/play_mode_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/space_size_10"
+            android:src="@drawable/ic_btn_play_loop_selector" />
+
+        <TextView
+            android:id="@+id/play_mode_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_size_10"
+            android:layout_marginRight="@dimen/space_size_10"
+            android:layout_toRightOf="@+id/play_mode_iv"
+            android:text="@string/mode_random"
+            android:textColor="@color/lightWhite"
+            android:textSize="@dimen/text_size_20" />
+
+        <TextView
+            android:id="@+id/play_list_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/play_mode_tv"
+            android:textColor="@color/lightWhite"
+            android:textSize="@dimen/text_size_20" />
+
+
+        <ImageView
+            android:id="@+id/clear_all_iv"
+            style="@style/Widget.AppCompat.ActionButton.Overflow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_size_16"
+            android:adjustViewBounds="true"
+            android:maxHeight="80px"
+            android:maxWidth="80px"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_dialog_list_clear_selector" />
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/space_size_1"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ic_item_divider_black" />
+    </RelativeLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ViewStub
+            android:id="@+id/empty_stub"
+            android:layout="@layout/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</LinearLayout>
